@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const allImages = Object.values(
-  import.meta.glob("../assets/photos/*.{jpg,JPG,jpeg,JPEG,png,PNG,webp,WEBP}", {
+  import.meta.glob("/public/photos/*.{jpg,JPG,jpeg,JPEG,png,PNG,webp,WEBP}", {
     eager: true,
     import: "default",
   }),
